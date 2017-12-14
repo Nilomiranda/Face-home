@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook - entre ou cadastra-se</title>
+        <meta charset="utf-8"/>
+        <link href="css/Facebook-home.css" type="text/css" rel="stylesheet"/>
+        <link type="image/ico" rel="shortcut icon" href="https://m.facebook.com/favicon.ico?refsrc=https%3A%2F%2Ffacebook.com%2F&_rdr"/>
+        <script type="text/javascript" src="javascript/function.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <h1 class="facebook">facebook</h1>
+                </div><!-- logo -->
+                
+                <div class="login-container">
+                    <ul>
+                        <li>
+                        <div class="name-container font-config">
+                            <label for="iEmail">Email ou telefone</label>  
+                            <div><input type="email" id="iEmail" class="input-text"/></div>
+                        </div><!-- name-container --></li>
+                        <li>
+                        <div class="pass-container font-config">
+                            <label for="iSenha">Senha</label>
+                            <div><input type="password" id="iSenha" class="input-text"/></div>
+                            <div class="pass-rem"><span class="light-blue">Esqueceu a senha?</span></div>
+                        </div><!-- pass-container --></li>
+                        <li><input type="submit" value="Entrar" onClick="clicou()" /></li>
+                    </ul>
+                </div><!-- login-container -->               
+            </div><!-- header -->
+        </header>
+        <div class="main-container">
+            <div class="face-slogan float">
+                <div class="slogan-box">
+                    <div class="slog-wrap">
+                        <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
+                    </div><!-- slog-wrap -->
+                    <div class="earth-image">
+                    </div><!-- earth-image -->
+                </div><!-- slogan-box -->
+            </div><!-- face-slogan -->
+            <div class="sign-up float">
+                <div class="title-1">
+                    <h2 class="signup-call font-config">Abra uma conta</h2>
+                </div><!-- title-1 -->
+                <div class="title-2">
+                    <h3 class="font-config">É gratuito e sempre será.</h3>  
+                </div><!-- title-2 -->
+
+                <div class="sign-up-form-container">
+                    <form class="sign-up-form">
+                        <input type="text" class="name-input" placeholder="Nome"/>
+                        <input type="text" class="secname-input" placeholder="Sobrenome" />
+                        <div class="clear"></div><!-- clear -->
+                        <input type="text" class="cel-email-input" placeholder="Celular ou email" />
+                        <input type="text" class="password-input" placeholder="Nova senha" />
+
+                        <h4 class="font-config">Data de nascimento</h4>
+                        <div class="nasc-form-container">
+                            <form>
+                                <input type="number" class="born-box-size" />
+                                <input type="number" class="born-box-size" />
+                                <input type="number" class="born-box-size" />
+                                <span class="why-born-container font-config"><a href="#">Por que preciso informar minha data de nascimento?</a></span>
+                                <div class="gender-select">
+                                    <!--<span class="fem-option option-box">--><input name= "gender" type="radio" id="oFem" class="gender-opt font-config" /><label for="oFem" class="font-config"> Feminino</label><!--</span>-->
+                                    <!--<span class="male-option option-box">--><input name= "gender" type="radio" id="oMale" class="gender-opt font-config" /><label for="oMale" class="font-config"> Masculino</label><!--</span>-->
+                                </div><!-- gender-select -->
+                            </form>
+                        </div><!-- nasc-form-container -->
+
+                        <div class="finish-sign-up">
+                            <div class="termos font-config">
+                                <p>Ao clicar em Abrir uma conta, você concorda com nossos Termos e que leu nossa Política de Dados, incluindo nosso Uso de Cookies. Você pode receber notificações por SMS do Facebook e pode cancelar o recebimento a qualquer momento.</p>
+                            </div><!-- termos -->
+                            <div class="button-container">
+                                <input type="button" class="sign-up-button font-config" value="Abrir uma conta"/>
+                            </div><!-- button-container -->
+                        </div><!-- finish-sign-up -->
+                        <div class="other-opt-container font-config">
+                            <p><a>Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+                        </div><!-- other-opt-container -->
+
+                    </form>
+                </div><!-- sign-up-form-container -->
+            </div><!-- sign-up --> 
+        </div><!-- main-container -->
+        
+    </body>
+</html>
